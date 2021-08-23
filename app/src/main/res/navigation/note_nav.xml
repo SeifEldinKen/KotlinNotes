@@ -16,5 +16,5 @@
         android:name="com.neouto.kotlinnotes.ui.CreateNoteFragment"
         android:label="fragment_create_note"
         tools:layout="@layout/fragment_create_note" />
-    
+
 </navigation>
