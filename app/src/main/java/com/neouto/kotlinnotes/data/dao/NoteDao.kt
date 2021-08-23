@@ -11,7 +11,7 @@ interface NoteDao {
     suspend fun insert(note: Note)
 
     @Query("SELECT * FROM notes_table ORDER BY id ASC")
-    fun fetchAllNotes(): LiveData<Note>
+    fun fetchAllNotes(): LiveData<List<Note>>
 
     @Update
     fun update(note: Note)
